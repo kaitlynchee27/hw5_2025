@@ -153,13 +153,10 @@ match our example. (You may want to look at the screen shots
  from 1200px and 1500px as well -  the changes are not from
   media queries, but from the use of flex.) */
 
-  /* matches the 1500px screenshot at 1506px */
   .gallery{
    display: flex;
    flex-wrap: wrap;
-   align-items: stretch;
    justify-content: center;
-   gap: 4px;
 }
 
 /* greater than 900px */
